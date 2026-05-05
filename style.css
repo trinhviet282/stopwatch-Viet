@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+}
+
+#time {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* kiểu iPhone */
+#startBtn {
+  background: #16a34a;
+  color: white;
+}
+
+#resetBtn {
+  background: #374151;
+  color: white;
+}
+
+#lapBtn {
+  background: #374151;
+  color: white;
+}
+
+#laps {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#laps li {
+  border-bottom: 1px solid #333;
+  padding: 5px 0;
+}
